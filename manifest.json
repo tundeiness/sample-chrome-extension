@@ -1,0 +1,6 @@
+{
+    "name": "Sample-Chrome-Extention",
+    "version": "1.0",
+    "description": "My Extension!",
+    "manifest_version": 2
+  }
