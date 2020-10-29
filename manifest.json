@@ -2,7 +2,7 @@
     "name": "Sample-Chrome-Extention",
     "version": "1.0",
     "description": "My Extension!",
-    "permissions": ["declarativeContent", "storage"],
+    "permissions": ["activeTab","declarativeContent", "storage"],
     "background": {
       "scripts": ["background.js"],
       "persistent": false
@@ -16,6 +16,7 @@
         "128": "images/get_started128.png"
       }
     },
+    "options_page": "options.html",
 
     "icons": {
       "16": "images/get_started16.png",
