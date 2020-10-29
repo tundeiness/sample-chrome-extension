@@ -2,6 +2,7 @@
     "name": "Sample-Chrome-Extention",
     "version": "1.0",
     "description": "My Extension!",
+    "permissions": ["storage"],
     "background": {
       "scripts": ["background.js"],
       "persistent": false
