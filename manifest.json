@@ -2,5 +2,9 @@
     "name": "Sample-Chrome-Extention",
     "version": "1.0",
     "description": "My Extension!",
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
     "manifest_version": 2
   }
